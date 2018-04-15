@@ -1,1 +1,1 @@
-# Cute-Potato
+# Cute Potato
