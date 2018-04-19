@@ -30,6 +30,14 @@ bot.on("ready", async () => {
 bot.on("message", async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
+    
+    if(message.content === "ayy") {
+        const owo = "**OwO**"
+        setTimeout(function() {
+            message.reply(owo);
+            }, 10000)
+        message.delete(owo);
+    };
 
     let prefix = config.prefix;
     let messageArray = message.content.split(" ");
