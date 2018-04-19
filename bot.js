@@ -36,7 +36,7 @@ bot.on("message", async message => {
         setTimeout(function() {
             message.reply(owo);
             message.delete();
-        }
+        });
     };
 
     let prefix = config.prefix;
