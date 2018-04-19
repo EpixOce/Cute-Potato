@@ -34,7 +34,8 @@ bot.on("message", async message => {
     if(message.content === "owo") {
         const owo = "**OwO**"
         setTimeout(function() {
-            message.reply(owo) then message.delete()
+            message.reply(owo);
+            message.delete();
     };
 
     let prefix = config.prefix;
