@@ -31,11 +31,11 @@ bot.on("message", async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
     
-    if(message.content === "ayy") {
+    if(message.content === "owo") {
         const owo = "**OwO**"
         setTimeout(function() {
             message.reply(owo);
-            }, 10000)
+            }, 10000);
         message.delete(owo);
     };
 
