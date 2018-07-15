@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+/*const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
     let replies = [
@@ -23,3 +23,4 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
     name: "spin"
 }
+*/
