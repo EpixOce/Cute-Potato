@@ -24,7 +24,7 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is up and running!`)
-    bot.user.setActivity("Epix grind", {type: "WATCHING"});
+    bot.user.setActivity("over The Camp", {type: "WATCHING"});
 });
 
 bot.on("message", async message => {
